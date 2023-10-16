@@ -14,7 +14,7 @@ export const PokemonCard: FC<Props> = ({ pokemon }) => {
   };
   return (
     <Grid xs={6} sm={3} md={2} xl={1}>
-      <Card hovereable={true} clickable onClick={onClick}>
+      <Card hovereable clickable onClick={onClick}>
         <Card.Body css={{ p: 1 }}>
           <Card.Image src={pokemon.img} width="100%" height={140} />
           <Card.Footer>
