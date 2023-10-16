@@ -11,7 +11,8 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "next": "13.5.4",
+    "@nextui-org/react": "1.0.2-beta.2"
   },
   "devDependencies": {
     "typescript": "^5",
